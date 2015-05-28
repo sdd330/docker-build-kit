@@ -18,5 +18,7 @@ RUN chmod +x /usr/local/bin/docker-compose
 # Define mount point to access data on host system.
 VOLUME ["/workspace"]
 
+WORKDIR /workspace
+
 # Command
 CMD ["mvn"]
