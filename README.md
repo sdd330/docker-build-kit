@@ -54,7 +54,7 @@ cd my-app
 					</container>
 					<container>
 						<name>openjdk</name>
-						<image>sdd330/maven-oraclejdk</image>
+						<image>sdd330/maven-openjdk</image>
 						<sourceIncludes>
 							<sourceInclude>**/*.java</sourceInclude>
 						</sourceIncludes>
