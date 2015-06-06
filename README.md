@@ -16,7 +16,7 @@
 docker run --rm -v /Users/myuser/Documents/workspace:/workspace -w /workspace -v /var/run/docker.sock:/var/run/docker.sock -it sdd330/docker-maven-kit bash
 ```
 
-说明：必须将主机的某个目录（比如/Users/admin/Documents/workspace
+说明：必须将主机的某个目录（比如/Users/myuser/Documents/workspace
  ）mount到容器当中，否则创建的项目文件将会丢失
 
 ### 创建一个Maven项目Hello World ###
