@@ -110,6 +110,9 @@ java -cp target/oraclejdk/target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
 ```
 
 其它项目生命周期中的步骤同样适用，比如：
+
 mvn compile测试项目
+
 mvn test测试项目
+
 mvn clean清理（编译所使用的容器会被删除）
