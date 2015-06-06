@@ -13,7 +13,7 @@
 
 ### 运行Docker Maven项目助手 ###
 ```shell
-docker run --rm -v /Users/myuser/Documents/workspace:/workspace -w /workspace -v /var/run/docker.sock:/var/run/docker.sock -it index.alauda.cn/yangleijun/docker-maven-kit bash
+docker run --rm -v /Users/myuser/Documents/workspace:/workspace -w /workspace -v /var/run/docker.sock:/var/run/docker.sock -it sdd330/docker-maven-kit bash
 ```
 
 说明：必须将主机的某个目录（比如/Users/admin/Documents/workspace
@@ -44,7 +44,7 @@ cd my-app
 				<containers>
 					<container>
 						<name>oraclejdk</name>
-						<image>index.alauda.cn/yangleijun/maven-oraclejdk</image>
+						<image>sdd330/maven-oraclejdk</image>
 						<sourceIncludes>
 							<sourceInclude>**/*.java</sourceInclude>
 						</sourceIncludes>
@@ -54,7 +54,7 @@ cd my-app
 					</container>
 					<container>
 						<name>openjdk</name>
-						<image>index.alauda.cn/yangleijun/maven-oraclejdk</image>
+						<image>sdd330/maven-oraclejdk</image>
 						<sourceIncludes>
 							<sourceInclude>**/*.java</sourceInclude>
 						</sourceIncludes>
