@@ -2,7 +2,7 @@ FROM sdd330/maven-oraclejdk
 
 MAINTAINER Yang Leijun <yang.leijun@gmail.com>
 
-RUN apk add --update git && rm -rf /var/cache/apk/*
+RUN apk add --update git openssh && rm -rf /var/cache/apk/*
 
 RUN git clone https://github.com/sdd330/dockerbuild-maven-plugin.git /plugin
 
